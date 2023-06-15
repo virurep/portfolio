@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    color: rgb(0, 0, 0);
+    background-color: rgb(249, 246, 238);
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 200;
+    margin: 1.5em 1em 1em 1em; 
+}
+
+.email{
+    margin: 1.5em 1em 1em 1em; 
+    color: rgb(250, 129, 0);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    
+}
+
+i {
+    margin: 1em 0 0 1em;
+}
+
+footer, ul {
+    text-align: right;
+}
+
+.svg-bottom-corner {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 150%; 
+    opacity: 30%;
+  }
+
+.topo{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 30%;
+    opacity: 20;
+    display: none;
+}
+
+.projects {
+    font-size: 85px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    transition: 400ms;
+    text-align: left;
+}
+
+.papers {
+    font-size: 85px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    transition: 400ms;
+    text-align: left;
+}
+
+.projects:hover {
+    transform: scale(1.1, 1.1);
+    color: rgb(250, 129, 0);
+}
+
+.papers:hover {
+    transform: scale(1.1, 1.1);
+    color: rgb(0, 0, 0);
+}
+
+.profile-pic {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;
+    object-position: 0 60% 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: 400ms;
+}
+
+a:hover{
+    color: rgb(250, 129, 0)
+}
+
+.orange {
+    color: rgb(250, 129, 0);
+    transition: 400ms;
+}
+  
+.orange:hover{
+    transform: scale(1.1, 1.1);
+    color: black;
+}
